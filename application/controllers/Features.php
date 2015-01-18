@@ -37,7 +37,7 @@
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Features extends CI_Controller {
+class Features extends Application {
 
 	/**
 	 * Index Page for this controller.
@@ -56,7 +56,9 @@ class Features extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('features');
+		//$this->load->view('welcome');
+                $this->data['pagebody'] = 'features';
+                $this->render();
 	}
 }
 

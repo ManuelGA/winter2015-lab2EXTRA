@@ -174,6 +174,8 @@ $autoload['language'] = array();
 */
 
 $autoload['model'] = array();
+$autoload['helper'] = array('common', 'url');
+$autoload['libraries'] = array('parser');
 
 
 /* End of file autoload.php */

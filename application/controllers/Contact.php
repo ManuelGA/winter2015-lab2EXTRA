@@ -37,7 +37,7 @@
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Contact extends CI_Controller {
+class Contact extends Application {
 
 	/**
 	 * Index Page for this controller.
@@ -56,7 +56,9 @@ class Contact extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('contact');
+		//$this->load->view('welcome');
+                $this->data['pagebody'] = 'contact';
+                $this->render();
 	}
 }
 
