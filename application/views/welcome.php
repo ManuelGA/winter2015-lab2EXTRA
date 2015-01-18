@@ -11,6 +11,7 @@
 			</div>
 		</div>
 	</div>
+
 	<div id="contents">
 		<div id="tagline" class="clearfix">
 			<h1>Design With Simplicity.</h1>
